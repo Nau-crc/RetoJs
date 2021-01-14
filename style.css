@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(37, 120, 175);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vw;
+  
+  }
+  
+  .empty {
+    display: inline-block;
+    border: 2px solid black;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+     
+  
+  }
+  
+  .fill {
+    background-image: url('https://picsum.photos/id/45/150/150');
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .hold {
+    border: 1px solid grey ;
+  }
+  
+  .hovered {
+    background: #f4f4f4;
+    border-style: dashed;
+  }
+  
+  @media (max-width: 800px) {
+  }
