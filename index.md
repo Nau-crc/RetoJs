@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# RetoJs
 
-You can use the [editor on GitHub](https://github.com/Nau-crc/RetoJs/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## :wrench: Instrucciones de Implementación :hammer:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Bienvenidos al reto Drag N Drop, para cumplirlo deberán seguir lo siguiente:
 
-### Markdown
+1. Ver el video de explicación de reto.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2. Tienen los siguientes recursos: Entregamos el HTML con las clases correspondientes, css básico y js con la estructura que deben seguir*
+   
+   * En este caso les damos una estructura guía donde deben encontrar las variables e identificadores necesarios en cada caso.
 
-```markdown
-Syntax highlighted code block
+3. Deberán completar el css y el js para que el reto funcione.
 
-# Header 1
-## Header 2
-### Header 3
+Resultado: El reto debe ser igual al que visualizan en el video (pueden cambiar colores e imagenes), deben crear un buen .body para que sea como el del video.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+# ¡HINTS! :star:
 
-**Bold** and _Italic_ and `Code` text
+## CSS
 
-[Link](url) and ![Image](src)
-```
+ - El body cambia con los @media queries -
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+## JS
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Nau-crc/RetoJs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+ - Validar paso a paso hacer uso de console.log() y la herramienta de desarrollador - 
 
-### Support or Contact
+en este caso es importante utilizar los addEventListener para cada clases
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Utilizar el setTimeOut para el asicronismo
+
+Importante preventDefault en los eventos
